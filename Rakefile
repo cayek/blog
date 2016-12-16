@@ -13,13 +13,6 @@ namespace :blog do
     sh 'jekyll build' 
   end
 
-  desc "Serve the site browser"
-  task :serve do
-    puts ("== Serve site").green
-    # build book
-    sh 'jekyll serve'
-  end
-
   desc "Clean the site build"
   task :clean do
     puts ("== Cleaning site").green
@@ -31,6 +24,13 @@ namespace :blog do
     puts ("== View site").green
     # build book
     sh 'gnome-open _site/index.html'
+  end
+
+  desc "Serve the site browser"
+  task :serve do
+    puts ("== View site").green
+    # build book
+    sh 'jekyll serve'
   end
 
 
