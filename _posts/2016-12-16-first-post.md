@@ -62,7 +62,7 @@ ggplot(data.frame(Pn = Pn), aes(x = Pn)) +
   gtheme
 {% endhighlight %}
 
-<img src="/knitr-jekyll/figure/source/2016-12-16-first-post/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+<img src="/blog/figure/source/2016-12-16-first-post/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
 
 On peut aussi calculer un échantillon de $$\hat{P_n}$$ par boostrap, c'est à dire que l'on prend au hasard
 $$n$$ individu dans notre échantillon pour calculer $$\hat{P_n}$$ et on recommence.
@@ -88,4 +88,4 @@ ggplot(data.frame(Pn.bootstrap = Pn.bootstrap), aes(x = Pn.bootstrap)) +
   gtheme
 {% endhighlight %}
 
-<img src="/knitr-jekyll/figure/source/2016-12-16-first-post/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
+<img src="/blog/figure/source/2016-12-16-first-post/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
